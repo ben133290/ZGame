@@ -1,0 +1,74 @@
+ArenaMap {
+    grid-size: 3 3;
+    grid-gutter: 0 1;
+    width: 60;
+    height: 24;
+}
+
+ArenaMap .location {
+    border: round $primary;
+    border-title-color: $accent;
+    padding: 0 1;
+    height: 100%;
+}
+
+ArenaMap .spacer {
+    height: 100%;
+}
+
+PlayerStats {
+}
+
+PlayerStats .statcell {
+    padding: 1 2;
+}
+
+PlayerStats .statcell.statcon {
+}
+
+PlayerStats.dead {
+    color: $error;
+}
+
+VerticalGroup.party {
+    border: round $primary;
+}
+
+SetupScreen {
+    align: center middle;
+}
+
+#setup {
+    width: 90;
+    height: auto;
+}
+
+.panel {
+    border: round $primary;
+    padding: 1 2;
+    width: 1fr;
+    height: auto;
+}
+
+.stat-row {
+    height: auto;
+}
+
+.stat-name {
+    width: 12;
+    padding: 1 0;
+}
+
+.stat-value {
+    width: 4;
+    content-align: center middle;
+    padding: 1 0;
+}
+
+.step {
+    min-width: 5;
+}
+
+#error {
+    color: $error;
+}
